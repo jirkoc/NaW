@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Viewing {{.Title}} in Go's portable Wiki</title>
+
+  <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+  <h1>{{.Title}}</h1>
+
+  <hr>
+  <p>
+    [<a href="/">Home</a>]
+    [<a href="/view/Todo">Todo</a>]
+    [<a href="/view/Changes">Changes</a>]
+    [<a href="/view/Checks">Checks</a>]
+  </p>
+  <hr>
+
+  <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+  <div>{{.DisplayBody}}</div>
+
+  <hr>
+
+  <p>Zuletzt geändert: {{.Stamp}} - {{.Size}}</p>
+</body>
+</html>

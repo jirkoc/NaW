@@ -1,0 +1,9 @@
+body {
+  background-color:#fff;
+  color:#111;
+  /*font-family:Courier, monospace;*/
+}
+
+textarea {
+  margin-bottom: 7px;
+}

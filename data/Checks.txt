@@ -1,0 +1,86 @@
+# Hyperlinks
+
+Im alten Format:
+
+ftp://oopsthisisnotgood.org/doesntexist.txt - Wurde nicht erkannt
+http://localhost:8081/static/test.html
+https://golang.org/doc/articles/wiki/
+https://cooluser:hispassword@somesite.org/needs/simple/auth/
+
+Im neuen Format:
+
+[[ftp://oopsthisisnotgood.org/doesntexist.txt]]
+[[https://golang.org/doc/articles/wiki/]]
+[[https://someuser:hispassword@anysite.com/needs/simple/auth/]]
+[[http://localhost:8081/static/test.html]]
+Auch mit [[http://localhost:8081/static/test.html|beliebigem Text]]!
+
+Intern:
+
+[Home]
+
+# Gegliederte Überschriften
+
+## sind anscheinend bis
+
+### zur dritten Ebene möglich
+
+# Textformatierung
+
+*Kursives*
+**Fettes**
+__Unterstrichenes__
+~~Durchgestrichenes~~
+
+# Horizontale Trennlinien
+
+---
+
+<hr>
+
+# Listen
+
+* Einfache Listen
+* Mit Bullet Points
+  * Und Einrückung
+
+1. Nummerierte Listen
+2. Eventuell auch mit
+  2.1. Bevor der Spaß kommt:
+  2.2. Unterpunkte natürlich auch!
+2. Syntaktischem Zucker? (wäre jetzt 3.)
+
+- [ ] Offener Checklistenpunkte
+  - [x] Erledigter Checklistenunterpunkt
+- [x] Erledigter Checklistenpunkt
+
+# Codeblöcke
+
+```
+Voll vorformatiert!
+Echt wahnsinn!
+             ^
+             |
+Da ist das Ausrufezeichen!
+```
+
+Optional mit Syntaxhighlighting:
+```js
+console.log("Voll lockig!");
+```
+
+# Tabellen
+
+| Überschriften | sind | cool |
+| :------------ | :--: | ---: |
+| Wer sich wundert: | diese :-: | Gebilde |
+| dienen dazu | die Tabelle | auszurichten |
+| schon | cooler | Kram. |
+
+Optional:
+
+Die Lösung | für | Faule
+:------------ | :--: | ---:
+Man muss | zwar | weniger
+Tippen, | aber | die Übersicht
+steigert | es | nicht.
