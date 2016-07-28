@@ -2,8 +2,6 @@ Willkommen auf NaW!
 
 # Inhaltsverzeichnis
 
-[Windows] - Hinweise zu Windows
-
 [Todo] - Ausstehende Änderungen an diesem Wiki
 [Checks] - Funktionsüberprüfungen
 [Changes] - Letzte Änderungen mit Versionshinweisen

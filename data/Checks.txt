@@ -1,14 +1,5 @@
 # Hyperlinks
 
-Im alten Format:
-
-ftp://oopsthisisnotgood.org/doesntexist.txt - Wurde nicht erkannt
-http://localhost:8081/static/test.html
-https://golang.org/doc/articles/wiki/
-https://cooluser:hispassword@somesite.org/needs/simple/auth/
-
-Im neuen Format:
-
 [[ftp://oopsthisisnotgood.org/doesntexist.txt]]
 [[https://golang.org/doc/articles/wiki/]]
 [[https://someuser:hispassword@anysite.com/needs/simple/auth/]]
@@ -29,6 +20,7 @@ Intern:
 
 *Kursives*
 **Fettes**
+***Kursiv & fettes***
 __Unterstrichenes__
 ~~Durchgestrichenes~~
 

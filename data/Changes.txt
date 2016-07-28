@@ -1,6 +1,7 @@
 Zurück zum [Home]
 
-Mit v0.4.0 wurde diese Seite mehr oder minder obsolet. Aus historischen Gründen belasse ich sie aber erst einmal hier.
+Mit v0.4.0 wurde diese Seite mehr oder minder obsolet. Aus historischen Gründen belasse ich sie aber erst einmal hier.  
+Der weitere Entwicklungsverlauf kann nun, anhand der Commits, besser automatisiert dargestellt werden: [[https://github.com/pyrox777/NaW/commits/master]]
 
 v0.4.0: Erste Ausbesserungen an dem regulären Ausdruck für Überschriften & Unterstützung für zweite und dritte Ebene, Aufnahme in git [an dieser Stelle wird der Link nachgetragen]
 v0.3.9: Bereinigen und Ausbessern von Kommentaren im Code, ersten Prototyp für Überschriften auf erster Ebene hinzugefügt

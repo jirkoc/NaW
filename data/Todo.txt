@@ -1,29 +1,5 @@
 Zurück zum [Home]
 
-- Ausbessern von Überschriften (Mehr Ebenen, verbesserte Regex-Ausdrücke)
-- Gliederung in Kategorien (durch Verwendung von Ordnern?) - kategorie:artikel?
-- Suchfunktion/Suchfeld
-- Artikelübersicht (mit: Gesamtanzahl, ggbf. Größe)
-- Artikelübersicht in Kopfleiste integrieren
-- Unterstützung von horizontalen Linien (mit <hr> Tag?)
-- Unterstützung von __Unterschtrichenem__
-- Unterstützung von ~~Durchgeschtrichenem~~
-- Arbeit an der optischen Erscheinung
-- Unterstützung von Tastaturkürzeln
-  - [[http://www.catswhocode.com/blog/using-keyboard-shortcuts-in-javascript]]
-- Unterstützung von Codeblöcken (<pre> Tags) durch:
-```hier käme die Sprache hin (optional für Syntaxhighlighting)
-Dies hier ist Code.
-```
-- "Abbrechen" in edit.html dem "Speichern"-Knopf optisch anpassen
-- Ein "Readonly"-Modus (für öffentliche Verwendung)
-- "Vorschau"-Knopf
-  - benötigt ein "Vorschau" Template
-- Unterstützung von Listen
-  - Unterstützung von Listenunterpunkten
-  - Unterstützung von Checklisten
-- Unterstützung von Tabellen
-- Unterstützung von Bildern
-- Arbeit an der optischen Erscheinung
+Die aktuelle Todoliste findet sich, in Form der Roadmap, in NaWs Wiki auf GitHub wieder: [[https://github.com/pyrox777/NaW/wiki/Roadmap]]
 
 siehe auch: [Changes]
