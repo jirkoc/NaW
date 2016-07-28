@@ -1,3 +1,4 @@
+NaW*
 # The following ignore statements help separating user's and NaW project data.
 data/*
 !data/Changes.txt
