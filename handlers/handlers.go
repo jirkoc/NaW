@@ -63,9 +63,9 @@ var pageRegexp = regexp.MustCompile("\\[([0-9A-Za-z]+)\\]")
 
 // This expression helps creating headlines.
 // TODO Find a better expression for alphanumeric characters including german Umlauts.
-var headFirRegexp = regexp.MustCompile("#\\s([0-9A-Za-zÄäÖöÜüß./_:@\\- ]+)")
-var headSecRegexp = regexp.MustCompile("#{2}\\s([0-9A-Za-zÄäÖöÜüß./_:@\\- ]+)")
-var headThiRegexp = regexp.MustCompile("#{3}\\s([0-9A-Za-zÄäÖöÜüß./_:@\\- ]+)")
+var headFirRegexp = regexp.MustCompile(`(?m)^#\s(.+)$`)
+var headSecRegexp = regexp.MustCompile(`(?m)^#{2}\s(.+)$`)
+var headThiRegexp = regexp.MustCompile(`(?m)^#{3}\s(.+)$`)
 
 // This expression helps creating visual line breaks.
 var breakRegexp = regexp.MustCompile("\n")
